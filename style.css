@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+html{
+  background: #4478ff;
+}
+
+div.res{
+  width: fit-content;
+  margin: 0 auto;
+}
+
+div.input-result{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+div.input-result > *{
+  margin: 20px;
+}
+
+div.action{
+  display: flex;
+  justify-content: center;
+}
+
+
+/* Text &&  Icons */
+
+h1.page-title{
+  font-size: 3em;
+  color: white;
+  font-family: roboto, sans-serif;
+  font-weight: 1000;
+  text-align: center;
+}
+
+.input-name{
+  color: white;
+  font-family: roboto, sans-serif;
+  font-weight: bold;
+}
+
+i.fas{
+  color: white;
+  font-size: 2em;
+}
+
+/* Inputs */
+textarea.textareas{
+  font-family: roboto, sans-serif;
+  font-size: 14px;
+  resize: none;
+  box-shadow: black 1px 1px 4px;
+  padding: 8px;
+}
+
+input#main_action{
+  cursor: pointer;
+  background: white;
+  border: none;
+  box-shadow: black 1px 1px 5px;
+  border-radius: 5px;
+  font-size: 2em;
+  padding: 9px;
+  color: #313131;
+}
+
+
+/* RESULT */
+
+.error{
+  margin: auto;
+  font-size: 2.2em;
+  font-family: roboto, sans-serif;
+  color: rgb(255, 47, 47);
+  padding: 8px;
+  background: white;
+  border-radius: 5px;
+}
